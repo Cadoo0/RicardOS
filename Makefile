@@ -35,3 +35,7 @@ export/mykernel.iso: export/mykernel.bin
 clean:
 	rm -rf tmp
 	rm -rf export
+
+build:
+	make clean
+	make export/mykernel.iso
