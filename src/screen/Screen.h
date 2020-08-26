@@ -4,9 +4,10 @@
 class Screen {
 public:
     static const unsigned int screenWidth = 80;
-    static const unsigned int screenHeight = 20;
+    static const unsigned int screenHeight = 24;
 
     static void printf(char* string);
+    static void scroll();
 
 private:
     static unsigned int x;
